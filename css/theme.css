@@ -2106,5 +2106,8 @@ footer .margin-bottom{
 }
 .color-price {
   font-weight: bold;
-
+}
+.btn.btn-promotion-booking{
+  background: none !important;
+  padding: 0!important;
 }
