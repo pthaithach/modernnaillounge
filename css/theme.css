@@ -1435,22 +1435,6 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 15px 20px;
 }
 
-@media (min-width: 768px) {
-  .card-service {
-    /*width: 260px;*/
-    padding: 12px;
-  }
-  .circle-shape {
-    flex-shrink: 0;
-    padding: 0;
-    width: 40px;
-    height: 40px;
-    line-height: 45px;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 21px;
-  }
-}
 
 
 .card-blog {
@@ -1922,6 +1906,46 @@ a.text-dark:hover, a.text-dark:focus {
   background: #29c329;
 }
 
+
+a.join-wthree {
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-size: 17px;
+  margin-top: 30px;
+  background-image: linear-gradient(to right, #ac0005, #e15656, #ac0005);
+  border: 2px solid #e14949;
+    /* background: #c00000 !important; */
+  padding: 12px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.5s ease-in 0s;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+}
+.no-border{
+  border-bottom: none;
+}
+
+@media (min-width: 768px) {
+  .card-service {
+    /*width: 260px;*/
+    padding: 12px;
+  }
+  .circle-shape {
+    flex-shrink: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 21px;
+  }
+  a.join-wthree{
+    font-size: 18px;
+  }
+}
 @media (min-width: 1024px){
   .circle-shape {
     width: 40px;
@@ -2110,4 +2134,42 @@ footer .margin-bottom{
 .btn.btn-promotion-booking{
   background: none !important;
   padding: 0!important;
+}
+
+
+
+/* Modal Promotion */
+a.join-wthree.btn-callnow{
+  padding: 10px 10px;
+  text-align: center;
+  float: left;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+a.join-wthree.btn-booknow{
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.margin-top{
+  margin-top: 20px !important;
+}
+
+/*button Book Now*/
+.popup-button-booking a.join-wthree,
+.group-right-booking a.join-wthree
+{
+  border-radius: 10px;
+  height: 70px;
+  margin: 20px auto;
+}
+.group-right-booking a.btn-callnow {
+  margin-right: 10px;
+}
+.group-right-booking a.join-wthree {
+  padding-left: 27px !important;
+  padding-right: 27px !important;
+}
+a.join-wthree.btn-booknow,
+.group-right-booking a.join-wthree.btn-booknow{
+  padding: 20px 20px;
 }
